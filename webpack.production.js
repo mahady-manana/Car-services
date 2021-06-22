@@ -9,10 +9,7 @@ module.exports = {
   mode: 'production',
   cache: true,
   entry: {
-    main: [
-      'babel-polyfill',
-      path.join(CURRENT_WD, './frontend/index.tsx'),
-    ],
+    main: [path.join(CURRENT_WD, './frontend/index.tsx')],
   },
   output: {
     path: path.join(CURRENT_WD, '/build/__chunks__/'),
