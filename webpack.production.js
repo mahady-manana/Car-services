@@ -11,7 +11,6 @@ module.exports = {
   entry: {
     main: [
       'babel-polyfill',
-      'webpack-hot-middleware/client?reload=true',
       path.join(CURRENT_WD, './frontend/index.tsx'),
     ],
   },
