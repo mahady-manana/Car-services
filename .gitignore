@@ -1,0 +1,12 @@
+# Yarn
+/node_modules
+/build
+# /.env
+#/server/configs/*
+#!server/configs/config.md
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
