@@ -17,9 +17,7 @@ import config from './services/configs/config';
 const CURRENT_WD = process.cwd();
 const app = express();
 const APP_PORT = process.env.PORT || 4000;
-const MONGOURI =
-  process.env.MONGO_URI ||
-  'mongodb+srv://mahady:MWQu80iVIUAMuars@cluster0.xaig7.mongodb.net/mahady?retryWrites=true&w=majority';
+const MONGOURI = process.env.MONGO_URI;
 
 if (process.env.NODE_ENV === 'development') {
   webpackDevBundler.Bundler(app);
